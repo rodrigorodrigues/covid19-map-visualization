@@ -1,0 +1,13 @@
+package ie.covid19.mapvisualize;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class Covid19MapVisualizeApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
