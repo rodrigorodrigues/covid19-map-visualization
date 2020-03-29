@@ -1,4 +1,4 @@
-package ie.covid19.mapvisualize;
+package ie.covid19.mapvisualization;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

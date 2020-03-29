@@ -1,4 +1,4 @@
-package ie.covid19.mapvisualize;
+package ie.covid19.mapvisualization;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

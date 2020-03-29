@@ -1,5 +1,5 @@
 
-package ie.covid19.mapvisualize.dto;
+package ie.covid19.mapvisualization.dto;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,36 +12,36 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "attributes",
-    "geometry"
+    "name",
+    "isSystemMaintained"
 })
-public class Feature {
+public class UniqueIdField {
 
-    @JsonProperty("attributes")
-    private Attributes attributes;
-    @JsonProperty("geometry")
-    private Geometry geometry;
+    @JsonProperty("name")
+    private String name;
+    @JsonProperty("isSystemMaintained")
+    private Boolean isSystemMaintained;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
-    @JsonProperty("attributes")
-    public Attributes getAttributes() {
-        return attributes;
+    @JsonProperty("name")
+    public String getName() {
+        return name;
     }
 
-    @JsonProperty("attributes")
-    public void setAttributes(Attributes attributes) {
-        this.attributes = attributes;
+    @JsonProperty("name")
+    public void setName(String name) {
+        this.name = name;
     }
 
-    @JsonProperty("geometry")
-    public Geometry getGeometry() {
-        return geometry;
+    @JsonProperty("isSystemMaintained")
+    public Boolean getIsSystemMaintained() {
+        return isSystemMaintained;
     }
 
-    @JsonProperty("geometry")
-    public void setGeometry(Geometry geometry) {
-        this.geometry = geometry;
+    @JsonProperty("isSystemMaintained")
+    public void setIsSystemMaintained(Boolean isSystemMaintained) {
+        this.isSystemMaintained = isSystemMaintained;
     }
 
     @JsonAnyGetter

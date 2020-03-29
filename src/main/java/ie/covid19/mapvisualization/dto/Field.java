@@ -1,5 +1,5 @@
 
-package ie.covid19.mapvisualize.dto;
+package ie.covid19.mapvisualization.dto;
 
 import java.util.HashMap;
 import java.util.Map;

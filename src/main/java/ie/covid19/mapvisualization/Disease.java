@@ -1,10 +1,9 @@
-package ie.covid19.mapvisualize;
+package ie.covid19.mapvisualization;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.neo4j.ogm.annotation.GeneratedValue;
 import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
 
@@ -13,10 +12,7 @@ import org.neo4j.ogm.annotation.NodeEntity;
 @Builder
 @AllArgsConstructor
 @Getter
-public class ContactNumber {
+public class Disease {
     @Id
-    @GeneratedValue
-    private Long id;
-    private String number;
-    private String type;
+    private String name;
 }

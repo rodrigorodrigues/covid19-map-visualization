@@ -1,6 +1,10 @@
 ### COVID-19 Map Visualization
 
-The idea of this project is to help somehow and show a map with people infected per area and warn close contacts to avoid spread the virus.
+The idea of this project is to help somehow to slow down the spread of coronavirus.
+ 
+Display a map with people infected per area and their close contacts.
+
+Using Data from Ireland with Fake People Names - https://services1.arcgis.com/eNO7HHeQ3rUcBllm/arcgis/rest/services/CovidCountyStatisticsHPSCIreland/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=json
 
 ### Requirements
 * NEOJ4(NoSql)
